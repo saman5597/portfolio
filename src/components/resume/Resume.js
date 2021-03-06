@@ -73,7 +73,7 @@ function Resume() {
                             Software Developer
                         </h5>
                         <p className="resume-card__name">
-                            PC Solutions Pvt. Ltd. (Sep'19 - Mar'20)
+                            PC Solutions Pvt. Ltd. (Sep'18 - Mar'20)
                         </p>
                     </div>
                 </div>
