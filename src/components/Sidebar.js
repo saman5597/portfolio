@@ -58,7 +58,7 @@ function Sidebar() {
                     <img src={pin} alt="Location" className="sidebar__icon mr-3" />
                     Noida, India</div>
                 <div className="sidebar__item">saman.arshad97@gmail.com</div>
-                <div className="sidebar__item">8178587528</div>
+                <div className="sidebar__item">+91-8178587528</div>
             </div>
             <div className="sidebar__item sidebar__email" onClick={emailMe}>Email me</div>
         </motion.div>
