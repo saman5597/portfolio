@@ -3,6 +3,15 @@
 body {
     background-image: linear-gradient(to bottom,#8e0e00 , #1f1c18);
     background-attachment: fixed;
+    font-family: sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(to bottom,#8e0e00 , #1f1c18);
 }
 
 a {
@@ -41,10 +50,9 @@ a:hover {
 }
 
 .sidebar__avatar {
-    height: 110px;
-    width: 120px;
-    object-fit: contain;
-    border-radius: 30px;
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
 }
 
 .sidebar__icon {
@@ -139,31 +147,6 @@ a:hover {
     -webkit-text-fill-color: transparent;
 }
 
-/* About Section */
-
-.about {
-    padding: 20px;
-    margin: -35px;
-}
-
-.about__intro {
-    font-size: 1.1rem;
-    padding: 20px;
-    margin: 10px 0;
-}
-
-.about__container {
-    background-color: #dbdddf;
-    padding: 30px 20px;
-}
-
-.about__heading {
-    font-size: 25px;
-    font-weight: 700;
-    color: #354358;
-    margin-left: 10px;
-}
-
 /* Skillcard */
 
 .skillcard {
@@ -188,4 +171,43 @@ a:hover {
     margin: 0;
     font-size: 0.9rem;
     color: #6e7e91;
+}
+
+/* Bar */
+
+.bar {
+    width: 90%;
+    background-color: #f1f2f3;
+    border-radius: 20px;
+    margin-bottom: 12px;
+}
+
+.bar__icon {
+    width: 15px;
+    height: 15px;
+}
+
+.bar__wrapper {
+    background-image: linear-gradient(90deg,#8e0e00 , #1f1c18);
+    border-radius: 20px;
+    padding: 4px 14px;
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+/* RESPONSIVE CSS */
+
+@media (max-width: 600px) {
+    .app__main {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .navbar__active {
+        font-size: 1.5rem;
+    }
+
+    .navbar__item {
+        font-size: 1rem;
+    }
 }
