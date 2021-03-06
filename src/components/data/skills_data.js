@@ -7,7 +7,7 @@ const data_skills = [
     {
         icon: computer,
         title: "Frontend Development",
-        about: ["I can built a beautiful and scalable SPA using ", <strong key={1}>HTML,CSS</strong>, " and ", <strong key={1}>React</strong>]
+        about: ["I can built a beautiful and scalable SPA using ", <strong key={1}>HTML,CSS</strong>, " and ", <strong key={2}>React</strong>]
     },
     {
         icon: repair,
