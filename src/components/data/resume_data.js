@@ -13,6 +13,11 @@ const data_tools = [
     },
     {
         icon: software,
+        name: 'Postman',
+        level: '75'
+    },
+    {
+        icon: software,
         name: 'IntelliJ IDEA',
         level: '55'
     },
